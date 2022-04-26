@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+  .wrapper .container {
+    padding: 0 40px;
+  }
+
+  .search-field__container .form-search {
+    height: 130px;
+    padding: 0 25px;
+    flex-wrap: nowrap;
+  }
+
+  form .form-row-2, 
+  form .form-row-3 {
+    margin-left: 10px;
+  }
+
+  .wrapper footer {
+    height: 100px;
+    padding-top: 40px;
+  }
+
+  footer .footer__inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
