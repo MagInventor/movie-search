@@ -9,7 +9,6 @@ class Footer {
 
   createFooter() {
     this.rss = document.createElement('div');
-    this.rss.insertAdjacentText('beforeend', 'RS School 2020q1');
     this.rss.classList.add('rolling-scopes');
 
     this.github = document.createElement('div');
@@ -17,7 +16,7 @@ class Footer {
     this.githubImg.setAttribute('src', `${GitHub}`);
     this.githubImg.setAttribute('alt', 'github');
     this.github.append(this.githubImg);
-    this.github.insertAdjacentText('beforeend', 'paulwebdeveloper');
+    this.github.insertAdjacentText('beforeend', 'maginventor');
     this.github.classList.add('github');
 
     this.container.append(...[this.rss, this.github]);
